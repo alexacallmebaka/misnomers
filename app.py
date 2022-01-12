@@ -25,7 +25,7 @@ def api_all():
 
     response = jsonify(values)
 
-    #I was having weird problems during development not being able to request the API, and this fixed them
+    #I was having weird problems during development not being able to request the API, and this fixed them.
     response.headers.add('Access-Control-Allow-Origin', '*')
 
     return response
