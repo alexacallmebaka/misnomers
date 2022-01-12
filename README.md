@@ -22,7 +22,7 @@ Misnomers came to be after Dawson and I tried and failed to create a baby name g
 # How It Works
 
 ## Training The Model
-The first step was to train the model which would serve names to the website. To do this, I used [Keras](https://keras.io/) to create a recurrent neural network (RNN). The code which does this is located in the `model_train` folder. After the model is trained, it is stored in the `namegen-300.hdf5` file.
+The first step was to train the model which would serve names to the website. To do this, we used [Keras](https://keras.io/) to create a recurrent neural network (RNN). The code which does this is located in the `model_train` folder. After the model is trained, it is stored in the `namegen-300.hdf5` file.
 
 ## The Web App
 
