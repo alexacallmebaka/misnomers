@@ -76,7 +76,7 @@ class Model:
             #We wnat to make sure the name is of reasonable length, as well as not a name that already exists.
             if len(name) < 3 or self.names_dataset.search_first_name(name):
 
-                #If that name doesn;t pass, make a new one.
+                #If that name doesn't pass, make a new one.
                 name = self.make_name()
             
             else:
