@@ -26,7 +26,7 @@ The first step was to train the model which would serve names to the website. To
 
 ## The Web App
 
-Misnomers is a [Flask](https://flask.palletsprojects.com/en/2.0.x/) web app. The app (`app.py`) hosts an API which the web frontend calls upon to be served names from the model. It calls the API everytime the page is loaded so new, unique names are shown every time. The `gen.py` script provides a `Model()` class which allows the web app to interface with the model and get names for the API.
+Misnomers is a [Flask](https://flask.palletsprojects.com/en/2.0.x/) web app. The app (`app.py`) hosts an API which the web frontend calls upon to be served names from the model. It calls the API everytime the page is loaded so new, unique names are shown every time. The `gen.py` script provides a `Model` class which allows the web app to interface with the model and get names for the API.
 
 ## Hosting
 
