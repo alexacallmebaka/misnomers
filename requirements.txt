@@ -2,6 +2,6 @@ Flask
 h5py
 names-dataset==1.9.1
 numpy==1.19.2
-tensorflow-cpu==2.4.1
+tensorflow-cpu==2.5.0
 gunicorn
 keras
