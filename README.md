@@ -1,6 +1,14 @@
 # Misnomers
 Misnomers was a project created by my friend Dawson and I for [HackKU 2021](https://hackku-2021.devpost.com/). The goal of our project was to create a easy-to-use, minimalist website and application programming interface (API) for generating unique fantastical character names using machine learning.
 
+# Table of Contents
+* [Usage](#usage)
+* [Origin Story](#origin-story)
+* [How It Works](#how-it-works)
+    * [Training The Model](#training-the-model)
+    * [The Web App](#the-web-app)
+    * [Hosting](#hosting)
+
 # Usage
 You can view the Misnomers website [here](https://misnomers.herokuapp.com/). The API can also be called directly by sending a `GET` request to https://misnomers.herokuapp.com/api. The expected response is an array of JSON objects, similar to the following.
 ```
