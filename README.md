@@ -10,6 +10,8 @@ Misnomers was a project created by my friend Dawson and I for [HackKU 2021](http
     * [Hosting](#hosting)
 
 # Usage
+Unfortunately, the website is no longer being hosted on the internet. Apologies!
+
 You can view the Misnomers website [here](https://misnomers.herokuapp.com/). The API can also be called directly by sending a `GET` request to https://misnomers.herokuapp.com/api. The expected response is an array of JSON objects, similar to the following.
 ```
 [{"name":"Anher"},{"name":"Uanne"},{"name":"Ildyn"},{"name":"Ysi"},{"name":"Hilyng"}]
